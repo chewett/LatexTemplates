@@ -1,0 +1,10 @@
+*.log
+*.dvi
+*.aux
+*.pdf
+*.ps
+*.bbl
+*.blg
+*.synctex.gz
+src/conf.json
+cw1.toc
