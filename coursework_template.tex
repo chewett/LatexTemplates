@@ -1,0 +1,38 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{times}
+\usepackage{mdwlist} %used for itemize* for more compact lists
+\usepackage{graphicx} %allows lots of nice figures
+\usepackage{amsmath} %allows some nicer mathmatical stuff
+\usepackage{amssymb} %allows for set display with \mathbb{}
+\usepackage{geometry} % page layout stuff
+\usepackage{fixltx2e} %subscripts using \textsubscript
+\usepackage{alltt} % alltt enviroment to do verbatin + math stuff
+\usepackage[UKenglish]{babel}% http://ctan.org/pkg/babel
+\usepackage[UKenglish]{isodate}% http://ctan.org/pkg/isodate
+\usepackage{fancyhdr} % for headers and footers
+\usepackage[round]{natbib} % referencing format
+\usepackage{blindtext} % package for random text
+
+\author{Name \\ Student ID: }
+
+\title{Coursework Title}
+\begin{document}
+
+% headers
+\fancyhead[L]{Name}
+\fancyhead[C]{Coursework Title}
+\fancyhead[R]{\today}
+
+% need to specify the pagestyle as fancy
+\pagestyle{fancy}
+
+\maketitle
+
+\blinddocument
+
+
+\bibliographystyle{plainnat}
+%\bibliography{filename}
+
+\end{document}
